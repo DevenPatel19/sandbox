@@ -34,8 +34,3 @@
 // }
 
 // helloWorld();
-
-const fruits = ["Banana", "Orange", "Apple"]
-fruits[6] = "kiwi"
-
-console.log(fruits)
