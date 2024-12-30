@@ -22,7 +22,7 @@ pinkDiv.style.backgroundColor = "pink";
 
 // Create and append an <h1> inside the pink <div>
 const pinkDivHeading = document.createElement("h1");
-pinkDivHeading.textContent = "I’m in a div";
+pinkDivHeading.textContent = "I’m a dev";
 pinkDiv.appendChild(pinkDivHeading);
 
 // Create and append a <p> inside the pink <div>
