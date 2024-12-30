@@ -32,3 +32,12 @@ pinkDiv.appendChild(pinkDivParagraph);
 
 // Append the pink <div> to the container
 container.appendChild(pinkDiv);
+
+
+
+// the JavaScript file
+const button = document.querySelector("#button");
+button.onclick = () => alert("Hello World External JS");
+
+const btn = document.querySelector('#btn');
+btn.addEventListener("click", () => {alert("Hello World TOO")});
