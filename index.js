@@ -34,3 +34,44 @@
 // }
 
 // helloWorld();
+
+
+
+// ****************************************
+
+/*consider a sumOfTripledEvens function. It will:
+
+1.Take in an array.
+2. For every even number, it will triple it.
+3. Then it will sum all those even numbers.*/
+
+// //  Implement a function like that using pseudocode and then add the code to it
+// // pCode START : Instantiate function parameters array obj "arr"
+// function sumOfTripledEvens(arr) {
+//     // pCode: Instantiate  "sum" variable // let sum = 0 
+//     let sum = 0;
+//     // pCode: Iterate through through "arr" index (start) [0] until (stop)length-1 is met,(step)i++ once complete GOTO pCode RETURN.
+//     // pCode: Catch parameter of array length in variable "i"
+//     for (let i=0; i>= arr.length; i++){
+//         // pCode: test each value to see if it is even or odd ('arr[i]%2===0') if 'true' GOTO pCode EVEN if  'false' GOTO pCode ODD
+//         if (arr[i] % 2 === 0){
+//             // pCode EVEN : 'sum' += arr[i]*3 and i++
+//             const tripleEven =+ arr[i]*3; 
+//             // pCode: add to sum
+//             sum += tripleEven;
+//         }
+//         // pCode ODD: continue
+//         // pCode RETURN : return sum
+//         return sum;
+//     }
+// }
+
+
+// Rewrite the above sumOfripleEvens using .map(), .filter(), and .reduce() Array methods
+
+function sumOfTripledEvens(arr){
+    return arr
+        .filter((num) => num % 2 === 0)
+        .map((num) => num *3 )
+        .reduce((acc, curr) => acc + curr );
+}
