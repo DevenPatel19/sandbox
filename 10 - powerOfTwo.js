@@ -46,7 +46,7 @@ function isPowerOfTwoBitWise(n){
  console.log(isPowerOfTwoBitWise(8)) // True
 
  /**
-  * We are able to get Big O = O(1) by using bitwise operator '&'
+  ** We are able to get Big O = O(1) by using bitwise operator '&'
   * Example with breakdown for people who are not clear with bitwise operation
 
 Number: 4 (binary: 0100) - This is the binary representation of the number 4. In binary, 
