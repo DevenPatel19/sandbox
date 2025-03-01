@@ -25,5 +25,5 @@ console.log(linearSearch(arr, 20))  // -1
 
 
 /**
- * Big O notation = O(n) === Linear Search
+ * Big O notation = O(n) === Linear time
  */
