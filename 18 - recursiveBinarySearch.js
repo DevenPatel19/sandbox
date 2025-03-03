@@ -1,4 +1,4 @@
-/**
+/** RECURSIVE BINARY SEARCH
  * ! It's in the name - if you can't remember recursion go to # 13
  * !Problem Statemnet: Given a sorted array of 'n' elements and a target element 't', find the index of 't'
  * !                    the array, return -1 i the target element is not found.

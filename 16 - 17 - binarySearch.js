@@ -1,4 +1,4 @@
-/**
+/** BINARY SEARCH
  * ! Problem Statement: given a SORTED array of 'n' elements and a target element 't', find the index of 't' in the
  * ! array, return -1 if the target element is not found.
  * Must be sorted, if given unsorted you must try linear or sort the array and apply binary.
